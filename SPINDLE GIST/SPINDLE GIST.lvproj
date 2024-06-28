@@ -26,6 +26,7 @@
 		<Item Name="Infinitesimal Displacement.vi" Type="VI" URL="../Infinitesimal Displacement.vi"/>
 		<Item Name="Forward Kinematics.vi" Type="VI" URL="../Forward Kinematics.vi"/>
 		<Item Name="Inverse Kinematics.vi" Type="VI" URL="../Inverse Kinematics.vi"/>
+		<Item Name="Motor Control.vi" Type="VI" URL="../Motor Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
@@ -53,7 +54,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="Motor Control.vi" Type="VI" URL="../Motor Control.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -108,7 +108,6 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Motor Control.vi" Type="VI" URL="../Motor Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
