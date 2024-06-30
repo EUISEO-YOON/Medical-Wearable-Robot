@@ -22,12 +22,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="FT Sensor.vi" Type="VI" URL="../FT Sensor.vi"/>
+		<Item Name="Force Torque Sensor.vi" Type="VI" URL="../Force Torque Sensor.vi"/>
 		<Item Name="Infinitesimal Displacement.vi" Type="VI" URL="../Infinitesimal Displacement.vi"/>
 		<Item Name="Forward Kinematics.vi" Type="VI" URL="../Forward Kinematics.vi"/>
 		<Item Name="Inverse Kinematics.vi" Type="VI" URL="../Inverse Kinematics.vi"/>
-		<Item Name="PID Control.vi" Type="VI" URL="../PID Control.vi"/>
 		<Item Name="Test Kinematics.vi" Type="VI" URL="../Test Kinematics.vi"/>
+		<Item Name="Motor Control.vi" Type="VI" URL="../Motor Control.vi"/>
+		<Item Name="Virtual Motor.vi" Type="VI" URL="../Virtual Motor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
@@ -83,9 +84,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
