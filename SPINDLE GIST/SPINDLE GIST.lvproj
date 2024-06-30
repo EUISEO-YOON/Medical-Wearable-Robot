@@ -22,13 +22,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Force Torque Sensor.vi" Type="VI" URL="../Force Torque Sensor.vi"/>
-		<Item Name="Infinitesimal Displacement.vi" Type="VI" URL="../Infinitesimal Displacement.vi"/>
+		<Item Name="Deprecated Main.vi" Type="VI" URL="../Deprecated Main.vi"/>
+		<Item Name="Virtual FTS.vi" Type="VI" URL="../Virtual FTS.vi"/>
+		<Item Name="Desired Position.vi" Type="VI" URL="../Desired Position.vi"/>
 		<Item Name="Forward Kinematics.vi" Type="VI" URL="../Forward Kinematics.vi"/>
 		<Item Name="Inverse Kinematics.vi" Type="VI" URL="../Inverse Kinematics.vi"/>
-		<Item Name="Test Kinematics.vi" Type="VI" URL="../Test Kinematics.vi"/>
 		<Item Name="Motor Control.vi" Type="VI" URL="../Motor Control.vi"/>
-		<Item Name="Virtual Motor.vi" Type="VI" URL="../Virtual Motor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
