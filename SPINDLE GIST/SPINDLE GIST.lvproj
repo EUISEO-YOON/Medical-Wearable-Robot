@@ -22,8 +22,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Main FK.vi" Type="VI" URL="../Main FK.vi"/>
 		<Item Name="Virtual FTS.vi" Type="VI" URL="../Virtual FTS.vi"/>
-		<Item Name="Desired Position.vi" Type="VI" URL="../Desired Position.vi"/>
+		<Item Name="Equation of Motion.vi" Type="VI" URL="../Equation of Motion.vi"/>
 		<Item Name="Forward Kinematics.vi" Type="VI" URL="../Forward Kinematics.vi"/>
 		<Item Name="Inverse Kinematics.vi" Type="VI" URL="../Inverse Kinematics.vi"/>
 		<Item Name="Motor Control.vi" Type="VI" URL="../Motor Control.vi"/>
