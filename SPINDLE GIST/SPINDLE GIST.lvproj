@@ -21,7 +21,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MPRL DDA.vi" Type="VI" URL="../MPRL DDA.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Virtual FTS.vi" Type="VI" URL="../Virtual FTS.vi"/>
 		<Item Name="Equation of Motion.vi" Type="VI" URL="../Equation of Motion.vi"/>
 		<Item Name="Inverse Kinematics.vi" Type="VI" URL="../Inverse Kinematics.vi"/>
