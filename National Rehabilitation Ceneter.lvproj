@@ -242,6 +242,7 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -260,13 +261,12 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="Box-Muller.vi" Type="VI" URL="../SubVI/Session/Trial/Box-Muller.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Space.vi" Type="VI" URL="../SubVI/Session/Trial/Space.vi"/>
-			<Item Name="State.ctl" Type="VI" URL="../../../Control/State.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -323,11 +323,11 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="myRIO.vi" Type="VI" URL="../myRIO.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="Damping.ctl" Type="VI" URL="../Control/Damping.ctl"/>
 			<Item Name="Force Torque Vector.ctl" Type="VI" URL="../Control/Force Torque Vector.ctl"/>
 			<Item Name="Global.vi" Type="VI" URL="../SubVI/Global.vi"/>
 			<Item Name="Motor Position.ctl" Type="VI" URL="../Control/Motor Position.ctl"/>
 			<Item Name="RPY.ctl" Type="VI" URL="../Control/RPY.ctl"/>
-			<Item Name="State.ctl" Type="VI" URL="../Control/State.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
