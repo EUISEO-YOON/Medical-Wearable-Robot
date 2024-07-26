@@ -260,6 +260,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="State.vi" Type="VI" URL="../SubVI/Session/State.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -320,7 +321,6 @@
 			<Item Name="Force Torque Vector.ctl" Type="VI" URL="../Control/Force Torque Vector.ctl"/>
 			<Item Name="Global.vi" Type="VI" URL="../SubVI/Global.vi"/>
 			<Item Name="Motor Position.ctl" Type="VI" URL="../Control/Motor Position.ctl"/>
-			<Item Name="RPY.ctl" Type="VI" URL="../Control/RPY.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
